@@ -41,7 +41,7 @@ const LoginForm = () => {
           label="Username"
           rules={[{ required: true, message: "Please input your username!" }]}
         >
-          <Input />
+          <Input size="large" />
         </Form.Item>
 
         <Form.Item
@@ -49,11 +49,11 @@ const LoginForm = () => {
           label="Password"
           rules={[{ required: true, message: "Please input your password!" }]}
         >
-          <Input.Password />
+          <Input.Password size="large" />
         </Form.Item>
 
         <Form.Item>
-          <Button type="primary" htmlType="submit">
+          <Button type="primary" htmlType="submit" size="large">
             Log in
           </Button>
         </Form.Item>
